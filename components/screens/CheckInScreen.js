@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Button, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import MapView from 'react-native-maps';
 
 class CheckInScreen extends React.Component {
@@ -20,8 +20,6 @@ class CheckInScreen extends React.Component {
           latitude: position.coords.latitude.toFixed(3),
           longitude: position.coords.longitude.toFixed(3)
         });
-        console.log('Latitude: ' + this.state.latitude);
-        console.log('Longitude: ' + this.state.longitude);
       },
       (error) => this.setState({ error: error.message }),
       { enableHighAccuracy: true, timeout: 20000, maximumAge: 1000 },
