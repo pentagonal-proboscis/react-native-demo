@@ -227,7 +227,6 @@ If this causes problems for you, you may want to try changing your terminal's co
 - Create wireframes for actual app.
 - Move TODO tracking to formal issue tracker.
 - Write some tests.
-- 
 
 ### Architectural
 
@@ -244,7 +243,9 @@ If this causes problems for you, you may want to try changing your terminal's co
 
 ### Learning
 
-What are pure components?
+- What are pure components?
 https://60devs.com/pure-component-in-react.html
+
+- Dig deeper into list view (infinite scroll, search etc):
 https://facebook.github.io/react-native/docs/flatlist.html
 https://medium.com/react-native-development/how-to-use-the-flatlist-component-react-native-basics-92c482816fe6
