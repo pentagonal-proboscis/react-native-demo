@@ -19,7 +19,7 @@ class PersonListItem extends React.Component {
                 <View style={styles.infoColumn}>
                     <Text style={styles.title}>{this.props.title}</Text>
                     <Text style={styles.subtitle}>{this.props.subtitle}</Text>
-                    <Text numberOfLines={2} style={styles.body}>{this.props.body}</Text>
+                    <Text numberOfLines={3} style={styles.body}>{this.props.body}</Text>
                 </View>
             </View>
         );
@@ -35,8 +35,8 @@ PersonListItem.propTypes = {
 
 const styles = StyleSheet.create({
     container: {
-        marginTop: 15,
-        marginBottom: 15,
+        marginTop: 10,
+        marginBottom: 10,
         padding: 10,
         flex: 1,
         flexDirection: 'row',

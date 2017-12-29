@@ -29,7 +29,7 @@ class PeopleList extends React.Component {
                 { 
                     name: 'Franklin',
                     age: 37,
-                    intro: "Lives inside of a hollowed out missile.",
+                    intro: "Lives inside of a hollowed out missile. Is training to be a Bond villain and squirrel tickler.",
                     avatar: require('../../src/images/avatars/male-2.png')
                 },
                 { 
