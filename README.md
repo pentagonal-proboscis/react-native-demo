@@ -26,6 +26,7 @@ Below you'll find information about performing common tasks. The most recent ver
   * [Networking](#networking)
   * [iOS Simulator won't open](#ios-simulator-wont-open)
   * [QR Code does not scan](#qr-code-does-not-scan)
+* [TODOs](#todos)
 
 ## Updating to New Releases
 
@@ -218,3 +219,32 @@ There are a few steps you may want to take to troubleshoot these kinds of errors
 If you're not able to scan the QR code, make sure your phone's camera is focusing correctly, and also make sure that the contrast on the two colors in your terminal is high enough. For example, WebStorm's default themes may [not have enough contrast](https://github.com/react-community/create-react-native-app/issues/49) for terminal QR codes to be scannable with the system barcode scanners that the Expo app uses.
 
 If this causes problems for you, you may want to try changing your terminal's color theme to have more contrast, or running Create React Native App from a different terminal. You can also manually enter the URL printed by the packager script in the Expo app's search bar to load it manually.
+
+## TODOs
+
+### Other
+
+- Create wireframes for actual app.
+- Move TODO tracking to formal issue tracker.
+- Write some tests.
+- 
+
+### Architectural
+
+- Look at ejecting from expo.
+- Facebook integration
+  -> need to get a Mac to do this currently
+  -> requires working in XCode
+- Introduce Redux for state management.
+- Write API layer.
+
+### Functional
+
+- Add in detailed profile view.
+
+### Learning
+
+What are pure components?
+https://60devs.com/pure-component-in-react.html
+https://facebook.github.io/react-native/docs/flatlist.html
+https://medium.com/react-native-development/how-to-use-the-flatlist-component-react-native-basics-92c482816fe6
